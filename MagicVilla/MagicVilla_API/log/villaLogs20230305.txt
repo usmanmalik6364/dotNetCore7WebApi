@@ -1,0 +1,575 @@
+2023-03-05 22:53:55.276 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-03-05 22:53:55.384 +08:00 [DBG] Hosting starting
+2023-03-05 22:53:55.571 +08:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 7CFF669B5ABB183950E2DEA86945CA3ECA236ED5)
+2023-03-05 22:53:55.629 +08:00 [INF] Now listening on: https://localhost:7166
+2023-03-05 22:53:55.629 +08:00 [INF] Now listening on: http://localhost:5166
+2023-03-05 22:53:55.629 +08:00 [DBG] Loaded hosting startup assembly MagicVilla_API
+2023-03-05 22:53:55.629 +08:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-03-05 22:53:55.629 +08:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-03-05 22:53:55.629 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-05 22:53:55.629 +08:00 [INF] Hosting environment: Development
+2023-03-05 22:53:55.629 +08:00 [INF] Content root path: E:\Asp.netCore\MagicVilla\MagicVilla_API\
+2023-03-05 22:53:55.629 +08:00 [DBG] Hosting started
+2023-03-05 22:53:55.754 +08:00 [DBG] Connection id "0HMOTH5OQCHNA" accepted.
+2023-03-05 22:53:55.754 +08:00 [DBG] Connection id "0HMOTH5OQCHNB" accepted.
+2023-03-05 22:53:55.755 +08:00 [DBG] Connection id "0HMOTH5OQCHNB" started.
+2023-03-05 22:53:55.755 +08:00 [DBG] Connection id "0HMOTH5OQCHNA" started.
+2023-03-05 22:53:56.088 +08:00 [DBG] Connection id "0HMOTH5OQCHNC" accepted.
+2023-03-05 22:53:56.088 +08:00 [DBG] Connection id "0HMOTH5OQCHNC" started.
+2023-03-05 22:53:56.136 +08:00 [DBG] Connection 0HMOTH5OQCHNC established using the following protocol: "Tls13"
+2023-03-05 22:53:56.193 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7166/swagger/index.html - -
+2023-03-05 22:53:56.238 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-03-05 22:53:56.261 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-03-05 22:53:56.261 +08:00 [DBG] Request did not match any endpoints
+2023-03-05 22:53:56.389 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-03-05 22:53:56.706 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7166/_framework/aspnetcore-browser-refresh.js - -
+2023-03-05 22:53:56.714 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-03-05 22:53:56.716 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7166/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 8.8592ms
+2023-03-05 22:53:56.716 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7166/swagger/index.html - - - 200 - text/html;charset=utf-8 526.6106ms
+2023-03-05 22:53:57.359 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7166/swagger/v1/swagger.json - -
+2023-03-05 22:53:57.359 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-03-05 22:53:57.359 +08:00 [DBG] Request did not match any endpoints
+2023-03-05 22:53:57.621 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7166/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 262.0225ms
+2023-03-05 22:54:05.827 +08:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-03-05 22:54:05.827 +08:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-03-05 22:54:05.830 +08:00 [DBG] Connection id "0HMOTH5OQCHNB" stopped.
+2023-03-05 22:54:05.830 +08:00 [DBG] Connection id "0HMOTH5OQCHNA" stopped.
+2023-03-05 22:54:05.831 +08:00 [DBG] Connection id "0HMOTH5OQCHNA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-05 22:54:05.831 +08:00 [DBG] Connection id "0HMOTH5OQCHNB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-05 22:54:21.364 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7166/api/VillaAPI - -
+2023-03-05 22:54:21.371 +08:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI'
+2023-03-05 22:54:21.375 +08:00 [DBG] Endpoint 'MagicVilla_API.Controllers.VillaAPIController.GetVillas (MagicVilla_API)' with route pattern 'api/VillaAPI' is valid for the request path '/api/VillaAPI'
+2023-03-05 22:54:21.375 +08:00 [DBG] Request matched endpoint 'MagicVilla_API.Controllers.VillaAPIController.GetVillas (MagicVilla_API)'
+2023-03-05 22:54:21.377 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-03-05 22:54:21.379 +08:00 [INF] Executing endpoint 'MagicVilla_API.Controllers.VillaAPIController.GetVillas (MagicVilla_API)'
+2023-03-05 22:54:21.392 +08:00 [INF] Route matched with {action = "GetVillas", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MagicVilla_API.Models.Dto.VillaDTO]] GetVillas() on controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API).
+2023-03-05 22:54:21.393 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-05 22:54:21.393 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-05 22:54:21.393 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-03-05 22:54:21.393 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-05 22:54:21.393 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-03-05 22:54:21.394 +08:00 [DBG] Executing controller factory for controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API)
+2023-03-05 22:54:21.394 +08:00 [DBG] Executed controller factory for controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API)
+2023-03-05 22:54:21.395 +08:00 [INF] Getting all villas
+2023-03-05 22:54:21.396 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-03-05 22:54:21.398 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-03-05 22:54:21.399 +08:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-03-05 22:54:21.399 +08:00 [WRN] No output formatter was found for content types '["text/plain"]' to write the response.
+2023-03-05 22:54:21.404 +08:00 [INF] Executed action MagicVilla_API.Controllers.VillaAPIController.GetVillas (MagicVilla_API) in 6.4778ms
+2023-03-05 22:54:21.405 +08:00 [INF] Executed endpoint 'MagicVilla_API.Controllers.VillaAPIController.GetVillas (MagicVilla_API)'
+2023-03-05 22:54:21.405 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7166/api/VillaAPI - - - 406 0 - 40.8087ms
+2023-03-05 22:54:54.086 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-03-05 22:54:54.186 +08:00 [DBG] Hosting starting
+2023-03-05 22:54:54.327 +08:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 7CFF669B5ABB183950E2DEA86945CA3ECA236ED5)
+2023-03-05 22:54:54.374 +08:00 [INF] Now listening on: https://localhost:7166
+2023-03-05 22:54:54.374 +08:00 [INF] Now listening on: http://localhost:5166
+2023-03-05 22:54:54.374 +08:00 [DBG] Loaded hosting startup assembly MagicVilla_API
+2023-03-05 22:54:54.374 +08:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-03-05 22:54:54.374 +08:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-03-05 22:54:54.374 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-05 22:54:54.374 +08:00 [INF] Hosting environment: Development
+2023-03-05 22:54:54.374 +08:00 [INF] Content root path: E:\Asp.netCore\MagicVilla\MagicVilla_API\
+2023-03-05 22:54:54.374 +08:00 [DBG] Hosting started
+2023-03-05 22:54:54.527 +08:00 [DBG] Connection id "0HMOTH6AATOTL" received FIN.
+2023-03-05 22:54:54.527 +08:00 [DBG] Connection id "0HMOTH6AATOTM" received FIN.
+2023-03-05 22:54:54.546 +08:00 [DBG] Connection id "0HMOTH6AATOTL" accepted.
+2023-03-05 22:54:54.546 +08:00 [DBG] Connection id "0HMOTH6AATOTM" accepted.
+2023-03-05 22:54:54.548 +08:00 [DBG] Connection id "0HMOTH6AATOTL" started.
+2023-03-05 22:54:54.548 +08:00 [DBG] Connection id "0HMOTH6AATOTM" started.
+2023-03-05 22:54:54.565 +08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-05 22:54:54.565 +08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-05 22:54:54.634 +08:00 [DBG] Connection id "0HMOTH6AATOTM" stopped.
+2023-03-05 22:54:54.634 +08:00 [DBG] Connection id "0HMOTH6AATOTL" stopped.
+2023-03-05 22:54:54.636 +08:00 [DBG] Connection id "0HMOTH6AATOTM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-05 22:54:54.636 +08:00 [DBG] Connection id "0HMOTH6AATOTL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-05 22:54:54.816 +08:00 [DBG] Connection id "0HMOTH6AATOTN" accepted.
+2023-03-05 22:54:54.816 +08:00 [DBG] Connection id "0HMOTH6AATOTN" started.
+2023-03-05 22:54:54.847 +08:00 [DBG] Connection 0HMOTH6AATOTN established using the following protocol: "Tls13"
+2023-03-05 22:54:54.897 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7166/swagger/index.html - -
+2023-03-05 22:54:54.926 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-03-05 22:54:54.945 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-03-05 22:54:54.946 +08:00 [DBG] Request did not match any endpoints
+2023-03-05 22:54:55.037 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-03-05 22:54:55.163 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7166/_framework/aspnetcore-browser-refresh.js - -
+2023-03-05 22:54:55.165 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-03-05 22:54:55.168 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7166/swagger/index.html - - - 200 - text/html;charset=utf-8 274.0037ms
+2023-03-05 22:54:55.168 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7166/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 4.7720ms
+2023-03-05 22:54:55.632 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7166/swagger/v1/swagger.json - -
+2023-03-05 22:54:55.632 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-03-05 22:54:55.632 +08:00 [DBG] Request did not match any endpoints
+2023-03-05 22:54:55.787 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7166/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 154.5929ms
+2023-03-05 22:55:02.804 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7166/api/VillaAPI - -
+2023-03-05 22:55:02.812 +08:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI'
+2023-03-05 22:55:02.816 +08:00 [DBG] Endpoint 'MagicVilla_API.Controllers.VillaAPIController.GetVillas (MagicVilla_API)' with route pattern 'api/VillaAPI' is valid for the request path '/api/VillaAPI'
+2023-03-05 22:55:02.816 +08:00 [DBG] Request matched endpoint 'MagicVilla_API.Controllers.VillaAPIController.GetVillas (MagicVilla_API)'
+2023-03-05 22:55:02.817 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-03-05 22:55:02.820 +08:00 [INF] Executing endpoint 'MagicVilla_API.Controllers.VillaAPIController.GetVillas (MagicVilla_API)'
+2023-03-05 22:55:02.827 +08:00 [INF] Route matched with {action = "GetVillas", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MagicVilla_API.Models.Dto.VillaDTO]] GetVillas() on controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API).
+2023-03-05 22:55:02.828 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-05 22:55:02.828 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-05 22:55:02.828 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-03-05 22:55:02.828 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-05 22:55:02.828 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-03-05 22:55:02.829 +08:00 [DBG] Executing controller factory for controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API)
+2023-03-05 22:55:02.829 +08:00 [DBG] Executed controller factory for controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API)
+2023-03-05 22:55:02.829 +08:00 [INF] Getting all villas
+2023-03-05 22:55:02.831 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-03-05 22:55:02.833 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]'.
+2023-03-05 22:55:02.834 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-03-05 22:55:02.834 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MagicVilla_API.Models.Dto.VillaDTO, MagicVilla_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-03-05 22:55:03.015 +08:00 [INF] Executed action MagicVilla_API.Controllers.VillaAPIController.GetVillas (MagicVilla_API) in 176.8483ms
+2023-03-05 22:55:03.016 +08:00 [INF] Executed endpoint 'MagicVilla_API.Controllers.VillaAPIController.GetVillas (MagicVilla_API)'
+2023-03-05 22:55:03.016 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7166/api/VillaAPI - - - 200 110 application/json;+charset=utf-8 211.7304ms
+2023-03-05 22:55:10.170 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7166/api/VillaAPI - -
+2023-03-05 22:55:10.172 +08:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI'
+2023-03-05 22:55:10.173 +08:00 [DBG] Endpoint 'MagicVilla_API.Controllers.VillaAPIController.GetVillas (MagicVilla_API)' with route pattern 'api/VillaAPI' is valid for the request path '/api/VillaAPI'
+2023-03-05 22:55:10.173 +08:00 [DBG] Request matched endpoint 'MagicVilla_API.Controllers.VillaAPIController.GetVillas (MagicVilla_API)'
+2023-03-05 22:55:10.173 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-03-05 22:55:10.173 +08:00 [INF] Executing endpoint 'MagicVilla_API.Controllers.VillaAPIController.GetVillas (MagicVilla_API)'
+2023-03-05 22:55:10.174 +08:00 [INF] Route matched with {action = "GetVillas", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MagicVilla_API.Models.Dto.VillaDTO]] GetVillas() on controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API).
+2023-03-05 22:55:10.174 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-05 22:55:10.174 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-05 22:55:10.174 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-03-05 22:55:10.174 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-05 22:55:10.174 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-03-05 22:55:10.174 +08:00 [DBG] Executing controller factory for controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API)
+2023-03-05 22:55:10.174 +08:00 [DBG] Executed controller factory for controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API)
+2023-03-05 22:55:10.174 +08:00 [INF] Getting all villas
+2023-03-05 22:55:10.174 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-03-05 22:55:10.174 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]'.
+2023-03-05 22:55:10.174 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-03-05 22:55:10.174 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MagicVilla_API.Models.Dto.VillaDTO, MagicVilla_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-03-05 22:55:10.174 +08:00 [INF] Executed action MagicVilla_API.Controllers.VillaAPIController.GetVillas (MagicVilla_API) in 0.5251ms
+2023-03-05 22:55:10.174 +08:00 [INF] Executed endpoint 'MagicVilla_API.Controllers.VillaAPIController.GetVillas (MagicVilla_API)'
+2023-03-05 22:55:10.174 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7166/api/VillaAPI - - - 200 110 application/json;+charset=utf-8 4.9566ms
+2023-03-05 22:55:11.079 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7166/api/VillaAPI - -
+2023-03-05 22:55:11.079 +08:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI'
+2023-03-05 22:55:11.079 +08:00 [DBG] Endpoint 'MagicVilla_API.Controllers.VillaAPIController.GetVillas (MagicVilla_API)' with route pattern 'api/VillaAPI' is valid for the request path '/api/VillaAPI'
+2023-03-05 22:55:11.079 +08:00 [DBG] Request matched endpoint 'MagicVilla_API.Controllers.VillaAPIController.GetVillas (MagicVilla_API)'
+2023-03-05 22:55:11.079 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-03-05 22:55:11.079 +08:00 [INF] Executing endpoint 'MagicVilla_API.Controllers.VillaAPIController.GetVillas (MagicVilla_API)'
+2023-03-05 22:55:11.079 +08:00 [INF] Route matched with {action = "GetVillas", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MagicVilla_API.Models.Dto.VillaDTO]] GetVillas() on controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API).
+2023-03-05 22:55:11.079 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-05 22:55:11.079 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-05 22:55:11.079 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-03-05 22:55:11.079 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-05 22:55:11.079 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-03-05 22:55:11.079 +08:00 [DBG] Executing controller factory for controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API)
+2023-03-05 22:55:11.079 +08:00 [DBG] Executed controller factory for controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API)
+2023-03-05 22:55:11.079 +08:00 [INF] Getting all villas
+2023-03-05 22:55:11.079 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-03-05 22:55:11.079 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]'.
+2023-03-05 22:55:11.079 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-03-05 22:55:11.080 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MagicVilla_API.Models.Dto.VillaDTO, MagicVilla_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-03-05 22:55:11.080 +08:00 [INF] Executed action MagicVilla_API.Controllers.VillaAPIController.GetVillas (MagicVilla_API) in 0.6118ms
+2023-03-05 22:55:11.080 +08:00 [INF] Executed endpoint 'MagicVilla_API.Controllers.VillaAPIController.GetVillas (MagicVilla_API)'
+2023-03-05 22:55:11.080 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7166/api/VillaAPI - - - 200 110 application/json;+charset=utf-8 1.3821ms
+2023-03-05 23:26:22.008 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-03-05 23:26:22.428 +08:00 [INF] Entity Framework Core 6.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-03-05 23:26:22.512 +08:00 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2023-03-05 23:26:22.514 +08:00 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2023-03-05 23:26:22.578 +08:00 [DBG] 'ApplicationDbContext' disposed.
+2023-03-05 23:27:18.201 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-03-05 23:27:18.591 +08:00 [INF] Entity Framework Core 6.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-03-05 23:27:18.643 +08:00 [DBG] 'ApplicationDbContext' disposed.
+2023-03-05 23:28:18.609 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-03-05 23:28:18.990 +08:00 [INF] Entity Framework Core 6.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-03-05 23:28:19.030 +08:00 [DBG] Migrating using database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:28:19.035 +08:00 [DBG] Opening connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:28:19.251 +08:00 [DBG] An error occurred using the connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:28:19.252 +08:00 [DBG] Opening connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:28:19.252 +08:00 [DBG] An error occurred using the connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:28:19.283 +08:00 [DBG] Opening connection to database 'master' on server '.'.
+2023-03-05 23:28:19.295 +08:00 [DBG] Opened connection to database 'master' on server '.'.
+2023-03-05 23:28:19.300 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-05 23:28:19.304 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (3ms).
+2023-03-05 23:28:19.310 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Magic_VillaAPI];
+2023-03-05 23:28:19.498 +08:00 [INF] Executed DbCommand (188ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Magic_VillaAPI];
+2023-03-05 23:28:19.499 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-05 23:28:19.499 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-05 23:28:19.499 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Magic_VillaAPI] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2023-03-05 23:28:19.553 +08:00 [INF] Executed DbCommand (54ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Magic_VillaAPI] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2023-03-05 23:28:19.554 +08:00 [DBG] Closing connection to database 'master' on server '.'.
+2023-03-05 23:28:19.556 +08:00 [DBG] Closed connection to database 'master' on server '.'.
+2023-03-05 23:28:19.558 +08:00 [DBG] Opening connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:28:19.561 +08:00 [DBG] Opened connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:28:19.561 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-05 23:28:19.561 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-05 23:28:19.561 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-03-05 23:28:19.567 +08:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-03-05 23:28:19.567 +08:00 [DBG] Closing connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:28:19.567 +08:00 [DBG] Closed connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:28:19.630 +08:00 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2023-03-05 23:28:19.632 +08:00 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2023-03-05 23:28:19.642 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-05 23:28:19.642 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-05 23:28:19.642 +08:00 [DBG] Opening connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:28:19.642 +08:00 [DBG] Opened connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:28:19.643 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2023-03-05 23:28:19.649 +08:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2023-03-05 23:28:19.649 +08:00 [DBG] Closing connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:28:19.649 +08:00 [DBG] Closed connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:28:19.650 +08:00 [DBG] Opening connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:28:19.650 +08:00 [DBG] Opened connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:28:19.650 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-05 23:28:19.650 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-05 23:28:19.650 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-03-05 23:28:19.650 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-03-05 23:28:19.650 +08:00 [DBG] Closing connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:28:19.650 +08:00 [DBG] Closed connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:28:19.653 +08:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-03-05 23:28:19.653 +08:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-03-05 23:28:19.653 +08:00 [DBG] Opening connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:28:19.653 +08:00 [DBG] Opened connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:28:19.654 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-03-05 23:28:19.665 +08:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-03-05 23:28:19.665 +08:00 [DBG] Closing connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:28:19.665 +08:00 [DBG] Closed connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:28:19.666 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-05 23:28:19.666 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-03-05 23:28:19.666 +08:00 [DBG] Opening connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:28:19.666 +08:00 [DBG] Opened connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:28:19.666 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-03-05 23:28:19.668 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-03-05 23:28:19.669 +08:00 [DBG] A data reader was disposed.
+2023-03-05 23:28:19.669 +08:00 [DBG] Closing connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:28:19.669 +08:00 [DBG] Closed connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:28:19.677 +08:00 [INF] Applying migration '20230305152622_AddVillaTable'.
+2023-03-05 23:28:19.685 +08:00 [DBG] Opening connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:28:19.685 +08:00 [DBG] Opened connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:28:19.686 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-03-05 23:28:19.691 +08:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-03-05 23:28:19.691 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-05 23:28:19.691 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-05 23:28:19.691 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Villas] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    [UpdatedDate] datetime2 NOT NULL,
+    [Details] nvarchar(max) NOT NULL,
+    [Rate] float NOT NULL,
+    [Sqft] int NOT NULL,
+    [Occupancy] int NOT NULL,
+    [ImageUrl] nvarchar(max) NOT NULL,
+    [Amenity] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Villas] PRIMARY KEY ([Id])
+);
+2023-03-05 23:28:19.695 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Villas] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    [UpdatedDate] datetime2 NOT NULL,
+    [Details] nvarchar(max) NOT NULL,
+    [Rate] float NOT NULL,
+    [Sqft] int NOT NULL,
+    [Occupancy] int NOT NULL,
+    [ImageUrl] nvarchar(max) NOT NULL,
+    [Amenity] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Villas] PRIMARY KEY ([Id])
+);
+2023-03-05 23:28:19.695 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-05 23:28:19.695 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-05 23:28:19.696 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230305152622_AddVillaTable', N'6.0.0');
+2023-03-05 23:28:19.697 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230305152622_AddVillaTable', N'6.0.0');
+2023-03-05 23:28:19.697 +08:00 [DBG] Committing transaction.
+2023-03-05 23:28:19.699 +08:00 [DBG] Committed transaction.
+2023-03-05 23:28:19.700 +08:00 [DBG] Disposing transaction.
+2023-03-05 23:28:19.700 +08:00 [DBG] Closing connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:28:19.700 +08:00 [DBG] Closed connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:28:19.701 +08:00 [DBG] 'ApplicationDbContext' disposed.
+2023-03-05 23:45:39.065 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-03-05 23:45:39.480 +08:00 [INF] Entity Framework Core 6.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-03-05 23:45:39.575 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:45:39.575 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:45:39.575 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:45:39.575 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:45:39.575 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:45:39.591 +08:00 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2023-03-05 23:45:39.593 +08:00 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2023-03-05 23:45:39.593 +08:00 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2023-03-05 23:45:39.600 +08:00 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2023-03-05 23:45:39.629 +08:00 [DBG] Executing 5 update commands as a batch.
+2023-03-05 23:45:39.635 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:45:39.635 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:45:39.635 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:45:39.635 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:45:39.635 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:45:39.641 +08:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:45:39.644 +08:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:45:39.644 +08:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:45:39.644 +08:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:45:39.644 +08:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:45:39.644 +08:00 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2023-03-05 23:45:39.644 +08:00 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2023-03-05 23:45:39.646 +08:00 [DBG] Executing 5 update commands as a batch.
+2023-03-05 23:45:39.647 +08:00 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2023-03-05 23:45:39.647 +08:00 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2023-03-05 23:45:39.695 +08:00 [DBG] 'ApplicationDbContext' disposed.
+2023-03-05 23:47:31.697 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-03-05 23:47:32.100 +08:00 [INF] Entity Framework Core 6.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-03-05 23:47:32.207 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.208 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.208 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.208 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.208 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.236 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.236 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.236 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.236 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.236 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.255 +08:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.260 +08:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.267 +08:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.267 +08:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.267 +08:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.267 +08:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.267 +08:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.267 +08:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.271 +08:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.271 +08:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.280 +08:00 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2023-03-05 23:47:32.286 +08:00 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2023-03-05 23:47:32.286 +08:00 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2023-03-05 23:47:32.287 +08:00 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2023-03-05 23:47:32.315 +08:00 [DBG] Executing 5 update commands as a batch.
+2023-03-05 23:47:32.322 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.322 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.322 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.322 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.322 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.322 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.322 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.322 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.322 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.323 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.323 +08:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.323 +08:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.323 +08:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.323 +08:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.323 +08:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.324 +08:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.324 +08:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.324 +08:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.324 +08:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.325 +08:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-05 23:47:32.325 +08:00 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2023-03-05 23:47:32.325 +08:00 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2023-03-05 23:47:32.325 +08:00 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2023-03-05 23:47:32.325 +08:00 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2023-03-05 23:47:32.325 +08:00 [DBG] Executing 5 update commands as a batch.
+2023-03-05 23:47:32.378 +08:00 [DBG] 'ApplicationDbContext' disposed.
+2023-03-05 23:48:04.303 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-03-05 23:48:04.727 +08:00 [INF] Entity Framework Core 6.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-03-05 23:48:04.765 +08:00 [DBG] Migrating using database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:48:04.768 +08:00 [DBG] Opening connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:48:04.920 +08:00 [DBG] Opened connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:48:04.925 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-05 23:48:04.929 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (3ms).
+2023-03-05 23:48:04.936 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-03-05 23:48:04.953 +08:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-03-05 23:48:04.954 +08:00 [DBG] Closing connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:48:04.957 +08:00 [DBG] Closed connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:48:04.961 +08:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-03-05 23:48:04.961 +08:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-03-05 23:48:04.961 +08:00 [DBG] Opening connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:48:04.961 +08:00 [DBG] Opened connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:48:04.961 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-03-05 23:48:04.973 +08:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-03-05 23:48:04.973 +08:00 [DBG] Closing connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:48:04.973 +08:00 [DBG] Closed connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:48:04.974 +08:00 [DBG] Opening connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:48:04.974 +08:00 [DBG] Opened connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:48:04.974 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-05 23:48:04.974 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-05 23:48:04.974 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-03-05 23:48:04.976 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-03-05 23:48:04.976 +08:00 [DBG] Closing connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:48:04.976 +08:00 [DBG] Closed connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:48:04.976 +08:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-03-05 23:48:04.976 +08:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-03-05 23:48:04.976 +08:00 [DBG] Opening connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:48:04.976 +08:00 [DBG] Opened connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:48:04.976 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-03-05 23:48:04.976 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-03-05 23:48:04.976 +08:00 [DBG] Closing connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:48:04.976 +08:00 [DBG] Closed connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:48:04.990 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-05 23:48:04.990 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-03-05 23:48:04.990 +08:00 [DBG] Opening connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:48:04.990 +08:00 [DBG] Opened connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:48:04.990 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-03-05 23:48:04.992 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-03-05 23:48:04.993 +08:00 [DBG] A data reader was disposed.
+2023-03-05 23:48:04.993 +08:00 [DBG] Closing connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:48:04.994 +08:00 [DBG] Closed connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:48:05.002 +08:00 [INF] Applying migration '20230305154539_SeedVillaTable'.
+2023-03-05 23:48:05.032 +08:00 [DBG] Opening connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:48:05.032 +08:00 [DBG] Opened connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:48:05.033 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-03-05 23:48:05.037 +08:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-03-05 23:48:05.038 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-05 23:48:05.038 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-05 23:48:05.038 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Amenity', N'CreatedDate', N'Details', N'ImageUrl', N'Name', N'Occupancy', N'Rate', N'Sqft', N'UpdatedDate') AND [object_id] = OBJECT_ID(N'[Villas]'))
+    SET IDENTITY_INSERT [Villas] ON;
+INSERT INTO [Villas] ([Id], [Amenity], [CreatedDate], [Details], [ImageUrl], [Name], [Occupancy], [Rate], [Sqft], [UpdatedDate])
+VALUES (1, N'', '0001-01-01T00:00:00.0000000', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmasteryimages.blob.core.windows.net/bluevillaimages/villa3.jpg', N'Royal Villa', 4, 200.0E0, 550, '0001-01-01T00:00:00.0000000'),
+(2, N'', '0001-01-01T00:00:00.0000000', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmasteryimages.blob.core.windows.net/bluevillaimages/villa1.jpg', N'Premium Pool Villa', 4, 300.0E0, 550, '0001-01-01T00:00:00.0000000'),
+(3, N'', '0001-01-01T00:00:00.0000000', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmasteryimages.blob.core.windows.net/bluevillaimages/villa4.jpg', N'Luxury Pool Villa', 4, 400.0E0, 750, '0001-01-01T00:00:00.0000000'),
+(4, N'', '0001-01-01T00:00:00.0000000', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmasteryimages.blob.core.windows.net/bluevillaimages/villa5.jpg', N'Diamond Villa', 4, 550.0E0, 900, '0001-01-01T00:00:00.0000000'),
+(5, N'', '0001-01-01T00:00:00.0000000', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmasteryimages.blob.core.windows.net/bluevillaimages/villa2.jpg', N'Diamond Pool Villa', 4, 600.0E0, 1100, '0001-01-01T00:00:00.0000000');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Amenity', N'CreatedDate', N'Details', N'ImageUrl', N'Name', N'Occupancy', N'Rate', N'Sqft', N'UpdatedDate') AND [object_id] = OBJECT_ID(N'[Villas]'))
+    SET IDENTITY_INSERT [Villas] OFF;
+2023-03-05 23:48:05.062 +08:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Amenity', N'CreatedDate', N'Details', N'ImageUrl', N'Name', N'Occupancy', N'Rate', N'Sqft', N'UpdatedDate') AND [object_id] = OBJECT_ID(N'[Villas]'))
+    SET IDENTITY_INSERT [Villas] ON;
+INSERT INTO [Villas] ([Id], [Amenity], [CreatedDate], [Details], [ImageUrl], [Name], [Occupancy], [Rate], [Sqft], [UpdatedDate])
+VALUES (1, N'', '0001-01-01T00:00:00.0000000', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmasteryimages.blob.core.windows.net/bluevillaimages/villa3.jpg', N'Royal Villa', 4, 200.0E0, 550, '0001-01-01T00:00:00.0000000'),
+(2, N'', '0001-01-01T00:00:00.0000000', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmasteryimages.blob.core.windows.net/bluevillaimages/villa1.jpg', N'Premium Pool Villa', 4, 300.0E0, 550, '0001-01-01T00:00:00.0000000'),
+(3, N'', '0001-01-01T00:00:00.0000000', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmasteryimages.blob.core.windows.net/bluevillaimages/villa4.jpg', N'Luxury Pool Villa', 4, 400.0E0, 750, '0001-01-01T00:00:00.0000000'),
+(4, N'', '0001-01-01T00:00:00.0000000', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmasteryimages.blob.core.windows.net/bluevillaimages/villa5.jpg', N'Diamond Villa', 4, 550.0E0, 900, '0001-01-01T00:00:00.0000000'),
+(5, N'', '0001-01-01T00:00:00.0000000', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmasteryimages.blob.core.windows.net/bluevillaimages/villa2.jpg', N'Diamond Pool Villa', 4, 600.0E0, 1100, '0001-01-01T00:00:00.0000000');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Amenity', N'CreatedDate', N'Details', N'ImageUrl', N'Name', N'Occupancy', N'Rate', N'Sqft', N'UpdatedDate') AND [object_id] = OBJECT_ID(N'[Villas]'))
+    SET IDENTITY_INSERT [Villas] OFF;
+2023-03-05 23:48:05.062 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-05 23:48:05.062 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-05 23:48:05.062 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230305154539_SeedVillaTable', N'6.0.0');
+2023-03-05 23:48:05.063 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230305154539_SeedVillaTable', N'6.0.0');
+2023-03-05 23:48:05.064 +08:00 [DBG] Committing transaction.
+2023-03-05 23:48:05.065 +08:00 [DBG] Committed transaction.
+2023-03-05 23:48:05.066 +08:00 [DBG] Disposing transaction.
+2023-03-05 23:48:05.066 +08:00 [DBG] Closing connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:48:05.066 +08:00 [DBG] Closed connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:48:05.066 +08:00 [INF] Applying migration '20230305154732_SeedVillaTableWithCreatedDate'.
+2023-03-05 23:48:05.078 +08:00 [DBG] Opening connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:48:05.078 +08:00 [DBG] Opened connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:48:05.078 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-03-05 23:48:05.078 +08:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-03-05 23:48:05.078 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-05 23:48:05.078 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-05 23:48:05.078 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2023-03-05T23:47:32.1124336+08:00'
+WHERE [Id] = 1;
+SELECT @@ROWCOUNT;
+2023-03-05 23:48:05.080 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2023-03-05T23:47:32.1124336+08:00'
+WHERE [Id] = 1;
+SELECT @@ROWCOUNT;
+2023-03-05 23:48:05.080 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-05 23:48:05.080 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-05 23:48:05.081 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2023-03-05T23:47:32.1124345+08:00'
+WHERE [Id] = 2;
+SELECT @@ROWCOUNT;
+2023-03-05 23:48:05.081 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2023-03-05T23:47:32.1124345+08:00'
+WHERE [Id] = 2;
+SELECT @@ROWCOUNT;
+2023-03-05 23:48:05.081 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-05 23:48:05.081 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-05 23:48:05.081 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2023-03-05T23:47:32.1124346+08:00'
+WHERE [Id] = 3;
+SELECT @@ROWCOUNT;
+2023-03-05 23:48:05.081 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2023-03-05T23:47:32.1124346+08:00'
+WHERE [Id] = 3;
+SELECT @@ROWCOUNT;
+2023-03-05 23:48:05.081 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-05 23:48:05.081 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-05 23:48:05.081 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2023-03-05T23:47:32.1124347+08:00'
+WHERE [Id] = 4;
+SELECT @@ROWCOUNT;
+2023-03-05 23:48:05.082 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2023-03-05T23:47:32.1124347+08:00'
+WHERE [Id] = 4;
+SELECT @@ROWCOUNT;
+2023-03-05 23:48:05.082 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-05 23:48:05.082 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-05 23:48:05.082 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2023-03-05T23:47:32.1124348+08:00'
+WHERE [Id] = 5;
+SELECT @@ROWCOUNT;
+2023-03-05 23:48:05.082 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2023-03-05T23:47:32.1124348+08:00'
+WHERE [Id] = 5;
+SELECT @@ROWCOUNT;
+2023-03-05 23:48:05.082 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-05 23:48:05.082 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-05 23:48:05.082 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230305154732_SeedVillaTableWithCreatedDate', N'6.0.0');
+2023-03-05 23:48:05.082 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230305154732_SeedVillaTableWithCreatedDate', N'6.0.0');
+2023-03-05 23:48:05.082 +08:00 [DBG] Committing transaction.
+2023-03-05 23:48:05.083 +08:00 [DBG] Committed transaction.
+2023-03-05 23:48:05.083 +08:00 [DBG] Disposing transaction.
+2023-03-05 23:48:05.083 +08:00 [DBG] Closing connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:48:05.083 +08:00 [DBG] Closed connection to database 'Magic_VillaAPI' on server '.'.
+2023-03-05 23:48:05.084 +08:00 [DBG] 'ApplicationDbContext' disposed.
