@@ -1,0 +1,73 @@
+﻿@page "/hero"
+@page "/hero/{id:int}"
+@using BlazorFullStackCrud.Shared.Models
+@inject ISuperHeroService SuperHeroService
+@if(Id == null)
+{
+    <PageTitle>Create a new Super Hero</PageTitle>
+    <h3>Create a new Super Hero</h3>
+}
+else
+{
+    <PageTitle>Edit @hero.HeroName</PageTitle>
+}
+<EditForm Model="hero" OnSubmit="HandleSubmit">
+    <div>
+        <label for ="firstName">
+            First Name
+        </label>
+        <InputText id ="firstName" @bind-Value="hero.FirstName" class="form-control"></InputText>
+    </div>
+     <div>
+        <label for ="lastName">
+            Last Name
+        </label>
+        <InputText id ="lastName" @bind-Value="hero.LastName" class="form-control"></InputText>
+    </div>
+     <div>
+        <label for ="heroName">
+            hero Name
+        </label>
+        <InputText id ="heroName" @bind-Value="hero.HeroName" class="form-control"></InputText>
+    </div>
+    <div>
+        <label>Comic</label>
+        <br/>
+        <InputSelect @bind-Value="hero.ComicId" class="form-select">
+            @foreach (var comic in SuperHeroService.Comics)
+            {
+                <option value ="@comic.Id">@comic.Name</option>
+            }
+        </InputSelect>
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">@buttonText</button>
+</EditForm>
+@code {
+    [Parameter]
+    public int? Id { get; set; }
+    string buttonText = string.Empty;
+    SuperHero hero = new SuperHero { comic = new Comic() };
+
+    protected override async Task OnInitializedAsync()
+    {
+        buttonText = Id == null ? "Save New Hero" : "Update hero";
+        await SuperHeroService.GetComics();
+    }
+    
+     public override async Task SetParametersAsync(ParameterView parameters)
+    {
+        if(Id == null)
+        {
+            //Create a new hero
+        }
+        else
+        {
+            hero = await SuperHeroService.GetSingleHero((int)Id);
+        }
+    }
+    async Task HandleSubmit()
+    {
+        
+    }
+}
